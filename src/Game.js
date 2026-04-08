@@ -6,7 +6,7 @@ import Result from "./Result";
 function Game() {
     
     let [guess, setGuess] = useState("");
-    const  handleChange = (e) => {setGuess(e.target.value)};
+    const  handleChange = (e) => {setGuess(Number(e.target.value))};
     
     return (
         <> 

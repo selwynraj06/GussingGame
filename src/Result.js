@@ -8,7 +8,7 @@ function Result({number,guess}){
         }else if(guess < number){
             result = "You Gussed Lower";
         }
-        else if(guess == number){
+        else if(guess === number){
             result = "You Correctly Gussed the number";
         }
         else{
