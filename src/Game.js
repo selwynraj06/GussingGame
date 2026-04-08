@@ -10,8 +10,8 @@ function Game() {
     
     return (
         <> 
-            <h1>Guess the Number</h1><br/>
             <div className="box">
+                <h1>Guess the Number</h1><br/>
                 <label>Enter any number between 1 and 100:</label><br/>
                 <input type="text" name="guess" value={guess} onChange={handleChange} />
                 <br/>

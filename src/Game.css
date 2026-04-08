@@ -10,15 +10,15 @@ body{
     padding: 5%;
 }
 .box{
-    padding: 30px;
+    padding: 25px;
     background-color: rgb(92, 110, 127);
     color: white;
     width: 90%;
-    max-width: 400px;
+    max-width: 350px;
     border: 2px solid white;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     border-radius: 10px;
 }
 input{
@@ -26,18 +26,20 @@ input{
     height: 45px;
     font-size: 18px;
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 15px;
     border-radius: 10px;
     border: 1px solid white;
     outline: none;
 }
-input:hover{
+input:hover,input:focus{
     background-color: rgb(229, 223, 167);
 }
-input:focus{
-    background-color: rgb(229, 223, 167);
+
+h3{
+  margin-top: 20px;
 }
-@media (max-width: 480px){
+
+/* @media (max-width: 480px){
     .box{
         padding:20px;
     }
@@ -48,4 +50,4 @@ input:focus{
         height: 40px;
         font-size: 16px;
     }
-}
+} */
